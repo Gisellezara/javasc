@@ -1,12 +1,13 @@
 //Very Easy
 var x=10;
 var y=5;
-console.log(x-y);
+var z= x-y;
+console.log("The diffrence between " + x + " and " + y + " is " + z);
 //Easy
 var name1= "giselle";
 var name2= "tom";
 var diffrence= name1.length - name2.length;
-console.log("The name " + name2 + " is shorter then " + name1 + " by " + diffrence + " letters." );
+console.log("The name " + name2 + " is shorter then " + name1 + " by " + diffrence + " characters." );
 //Medium
 var input = prompt("What is your name?");
 var inputupper= input.toUpperCase();
@@ -58,5 +59,5 @@ else if (inputoper === `/`){
     console.log (inputnum11 / inputnum22)
 }
 else{
-    console.log ("insert number")
+    console.log ("Error when inputing operation symbol. Please try again.")
 }
